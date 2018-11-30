@@ -1,6 +1,6 @@
 # aniclass
 This repository hosts the original implementation of the machine learning-based animation video classification approach
-described in the paper "Color-independent classification of animation video"<sup>[1](#fn1)</sup>.
+described in the paper "Color-independent classification of animation video"<sup>[1](#fn1)</sup>. It is a fast and accurate framework for the detection of animated video that does not rely on color information and is robust to variation in genres and techniques.
 
 Scripts and code are provided for data pre-processing and feature extraction.
 Training parameters, original feature data, and a sample model are provided in the `trained` directory.
