@@ -1,6 +1,6 @@
 This directory is meant to house and pre-process data. The scripts provided follow the pre-processing method described in the original paper<sup>[1](#fn1)</sup>.
 
-### Requirements
+## Requirements
 * [Avisynth](https://sourceforge.net/projects/avisynth2/) with [FFMS2](https://github.com/FFMS/ffms2)
 * [x264](https://www.videolan.org/developers/x264.html)
 
