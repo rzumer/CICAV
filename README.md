@@ -1,4 +1,5 @@
-# aniclass
+# CICAV
+### Color-independent classification of animation video
 This repository hosts the original implementation of the machine learning-based animation video classification approach
 described in the paper "Color-independent classification of animation video"<sup>[1](#fn1)</sup>. It is a fast and accurate framework for the detection of animated video that does not rely on color information and is robust to variation in genres and techniques.
 
