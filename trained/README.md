@@ -41,17 +41,15 @@ Total Number of Instances              148
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.870    0.268    0.779      0.870    0.822      0.610    0.851     0.812     2D
-                 0.000    0.000    0.000      0.000    0.000      0.000    ?         ?         3D
-                 0.732    0.130    0.839      0.732    0.782      0.610    0.851     0.817     None
+                 0.870    0.268    0.779      0.870    0.822      0.610    0.851     0.812     Animation
+                 0.732    0.130    0.839      0.732    0.782      0.610    0.851     0.817     NotAnimation
 Weighted Avg.    0.804    0.202    0.808      0.804    0.803      0.610    0.851     0.814     
 
 === Confusion Matrix ===
 
-  a  b  c   <-- classified as
- 67  0 10 |  a = 2D
-  0  0  0 |  b = 3D
- 19  0 52 |  c = None
+  a  b   <-- classified as
+ 67 10 |  a = Animation
+ 19 52 |  b = NotAnimation
 ```
 
 <a name="fn1">1</a>: Zumer, R. & Ratté, S. Int J Multimed Info Retr (2018) 7: 187. https://doi.org/10.1007/s13735-018-0146-2
